@@ -1,0 +1,46 @@
+.ui-accordion .ui-accordion-header {
+  display: block;
+  margin: 0;
+  margin-right: auto;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-size: 24px;
+}
+
+.ui-state-default {
+  border: 0;
+  background: none;
+}
+
+.ui-icon {
+  background: none;
+}
+
+.ui-state-active {
+  background: none;
+}
+
+.ui-state-hover {
+  background: none;
+}
+
+.ui-widget-content {
+  border: 0;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 0;
+  padding-top: 30px;
+  max-width: 1026px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.ui-state-active ~ svg {
+  top: 30px;
+  transition: transform 0.3s ease;
+  transform: rotate(45deg);
+}
+

@@ -1,0 +1,83 @@
+.swiper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.swiper-scrollbar {
+  display: none;
+}
+
+.slide-1 {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-2 {
+  background-image: url(../img/workslider.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-3 {
+  background-image: url(../img/workslider2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+}
+
+.swiper-pagination {
+  padding: 15px 0;
+}
+
+
+.swiper-pagination-bullet {
+  margin: 0 !important;
+}
+
+.swiper-pagination-bullet:not(:last-child) {
+  margin:0 20px 0 0 !important;
+}
+
+@media (max-width: 1024px) {
+  .slide-1 {
+    background-image: url(../img/1024hero.jpg);
+  }
+
+  .slide-2 {
+    background-size: 1024px 100%;
+  }
+
+  .slide-3 {
+    background-size: 1024px 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .slide-1 {
+    background-image: url(../img/768hero.jpg);
+  }
+}
+
+@media (max-width: 375px) {
+  .slide-1 {
+    background-image: url(../img/320hero.jpg);
+  }
+
+  .swiper-pagination {
+    padding: 0;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+}
